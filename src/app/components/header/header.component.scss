@@ -1,0 +1,21 @@
+:host {
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: turquoise;
+    padding: 0.5rem 1rem;
+
+    .logo {
+      font-size: xx-large;
+    }
+
+    ul {
+      list-style: none;
+
+      li {
+
+      }
+    }
+  }
+}

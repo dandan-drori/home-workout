@@ -1,0 +1,12 @@
+<section class="workout">
+  <p class="sets">Sets:</p>
+
+  <button (click)="changeCount(-1)" [disabled]="!(count$ | async)">-</button>
+  <span class="count">{{count$ | async}}</span>
+  <button (click)="changeCount(1)">+</button>
+  <span class="reset" (click)="resetCount()">Reset</span>
+
+  <p class="remaining-container">Remaining Sets: <span class="remaining">{{(targetValue$ | async)! - (count$ | async)!}}</span></p>
+
+  <p class="reps-container">Reps: <span class="reps">{{reps$ | async}}</span></p>
+</section>

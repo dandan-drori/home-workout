@@ -1,0 +1,41 @@
+:host {
+  > * {
+    font-size: 20px;
+  }
+  .workout {
+    padding: 2rem;
+
+    .sets {
+      margin-bottom: 1rem;
+    }
+
+    button {
+      width: 2rem;
+      height: 2rem;
+      cursor: pointer;
+    }
+
+    .count {
+      margin: 0 .5rem;
+    }
+
+    .reset {
+      cursor: pointer;
+      margin-left: 0.5rem;
+    }
+
+    .remaining-container {
+      margin-top: 1rem;
+      .remaining {
+
+      }
+    }
+
+    .reps-container {
+      margin-top: 1rem;
+      .reps {
+
+      }
+    }
+  }
+}
